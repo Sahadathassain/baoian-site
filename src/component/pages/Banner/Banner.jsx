@@ -2,21 +2,21 @@
 
 const Banner = () => {
     return (
-        <div className='container '>
-            <section className="relative mt-10 w-full flex flex-col sm:flex-row">
-                <div className="sm:w-1/2 relative">
+        <div classNameName='container '>
+            <section classNameName="relative mt-10 w-full flex flex-col sm:flex-row">
+                <div classNameName="sm:w-1/2 relative">
                     <img
-                        className="absolute bg-white top-0 left-0 h-full w-full sm:w-3/4"
+                        classNameName="absolute bg-white top-0 left-0 h-full w-full sm:w-3/4"
                         src="http://www.baoiam.com/Hire-From-Us/Image/1.jpg"
                         alt=""
                         style={{ objectFit: "contain" }}
                     />
                 </div>
-                <div className="p-4 sm:w-1/2">
-                    <h1 className="text-3xl sm:text-5xl font-bold">
+                <div classNameName="p-4 sm:w-1/2">
+                    <h1 classNameName="text-3xl sm:text-5xl font-bold">
                         Looking to hire{" "}
                         <span
-                            className="text-blue-600"
+                            classNameName="text-blue-600"
                             style={{
                                 background:
                                     "-webkit-linear-gradient(0deg, #fa2424, #fb8721)",
@@ -29,7 +29,7 @@ const Banner = () => {
                         </span>{" "}
                         product managers?
                     </h1>
-                    <p className="mt-4 text-base sm:text-lg">
+                    <p classNameName="mt-4 text-base sm:text-lg">
                         Are you exhausted from trying to find top-notch product
                         managers? Look no further! With our platform, you can
                         effortlessly pick exceptional product managers with
@@ -46,11 +46,11 @@ const Banner = () => {
                 </div>
             </section>
 
-            <section className="w-1086 ml-20 ">
-                <h1 className="text-5xl font-bold mt-16">
+            <section classNameName="w-1086 ml-20 ">
+                <h1 classNameName="text-5xl font-bold mt-16">
                     Only candidates with a{" "}
                     <span
-                        className=""
+                        classNameName=""
                         style={{
                             background: "-webkit-linear-gradient(0deg, #fa2424, #fb8721)",
                             WebkitBackgroundClip: "text",
@@ -62,7 +62,7 @@ const Banner = () => {
                     </span>{" "}
                     make it to you.
                 </h1>
-                <p className="text-lg mt-10">
+                <p classNameName="text-lg mt-10">
                     Our process to select candidates ensures that only the top candidates
                     with strong grit and a growth mindset make it into our pool.
                     Each candidate has committed to working 20 hours per week for
